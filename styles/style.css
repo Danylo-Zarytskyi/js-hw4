@@ -1,0 +1,104 @@
+@charset "UTF-8";
+.container .box {
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgb(0, 0, 0);
+  margin-left: 300px;
+  margin-top: 400px;
+}
+.container .box .door {
+  display: none;
+  width: 150px;
+  height: 150px;
+  background-color: greenyellow;
+  position: absolute;
+  top: 403px;
+  z-index: 2;
+}
+.container .box .img-cont {
+  display: flex;
+}
+.container .box .cat {
+  position: absolute;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  transition: 1s;
+}
+.container .box .cat-moved {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  animation: ani 1s forwards;
+}
+@keyframes ani {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: -150px;
+  }
+}
+.container .box .eye1 {
+  position: relative;
+  top: 60px;
+  left: 40px;
+  width: 18px;
+  height: 8px;
+  border-radius: 100px;
+  border: 3px solid rgb(0, 0, 0);
+  z-index: 1;
+}
+.container .box .eye1 .zra4ok1 {
+  width: 3px;
+  height: 3px;
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+.container .box .eye2 {
+  position: relative;
+  top: 60px;
+  left: 55px;
+  width: 18px;
+  height: 8px;
+  border-radius: 100px;
+  border: 3px solid rgb(0, 0, 0);
+  z-index: 1;
+}
+.container .box .eye2 .zra4ok2 {
+  width: 3px;
+  height: 3px;
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+.container .button-summon {
+  position: absolute;
+  top: 450px;
+  left: 1000px;
+  height: 300px;
+  width: 500px;
+}
+.container .button-summon .summon-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.container .button-summon .star {
+  cursor: pointer;
+  width: 230px;
+  height: 200px;
+  border-radius: 1000px;
+  rotate: 10deg;
+  background-image: url(../img/Без\ названия\ \(4\).jfif);
+  transition: 0.3s;
+}
+.container .button-summon .star:hover {
+  transition: 0.3s;
+  background-image: url(../img/Без\ названия\ \(4.hover\).png);
+}/*# sourceMappingURL=style.css.map */
