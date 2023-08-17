@@ -7,10 +7,9 @@
   margin-top: 400px;
 }
 .container .box .door {
-  display: none;
   width: 150px;
   height: 150px;
-  background-color: greenyellow;
+  background-color: rgb(255, 51, 0);
   position: absolute;
   top: 403px;
   z-index: 2;
