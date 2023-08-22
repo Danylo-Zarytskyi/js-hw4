@@ -5,7 +5,7 @@
         height: 150px;
         border: 3px solid rgb(0, 0, 0);
         margin-left: 300px;
-        margin-top: 400px;
+        margin-top: 192px;
         
         .door {
             
@@ -46,8 +46,41 @@
             border-radius: 100px;
             border: 3px solid rgb(0, 0, 0);
             z-index: 1;
+            float: left;
 
             .zra4ok1 {
+                position: absolute;
+                width: 3px;
+                height: 3px;
+                border: 2px solid greenyellow;
+                background-color: greenyellow;
+                border-radius: 10px;
+
+            }
+            .zra4ok1-b1 {
+                position: absolute;
+                left: -2px;
+                top: -2px;
+                width: 3px;
+                height: 3px;
+                border: 2px solid greenyellow;
+                background-color: greenyellow;
+                border-radius: 10px;
+            }
+            .zra4ok1-b2 {
+                position: absolute;
+                left: 3px;
+                top: -2px;
+                width: 3px;
+                height: 3px;
+                border: 2px solid greenyellow;
+                background-color: greenyellow;
+                border-radius: 10px;
+            }
+            .zra4ok1-b3 {
+                position: absolute;
+                left: 9px;
+                top: -1px;
                 width: 3px;
                 height: 3px;
                 border: 2px solid greenyellow;
@@ -56,6 +89,7 @@
             }
         }
         .eye2 {
+            float: right;
             position: relative;
             top: 60px;
             left: 55px;
@@ -65,6 +99,37 @@
             border: 3px solid rgb(0, 0, 0);
             z-index: 1;
             .zra4ok2 {
+                position: absolute;
+                width: 3px;
+                height: 3px;
+                border: 2px solid greenyellow;
+                background-color: greenyellow;
+                border-radius: 10px;
+            }
+            .zra4ok2-b1 {
+                position: absolute;
+                left: -2px;
+                top: -2px;
+                width: 3px;
+                height: 3px;
+                border: 2px solid greenyellow;
+                background-color: greenyellow;
+                border-radius: 10px;
+            }
+            .zra4ok2-b2 {
+                position: absolute;
+                left: 3px;
+                top: -2px;
+                width: 3px;
+                height: 3px;
+                border: 2px solid greenyellow;
+                background-color: greenyellow;
+                border-radius: 10px;
+            }
+            .zra4ok2-b3 {
+                position: absolute;
+                left: 9px;
+                top: -1px;
                 width: 3px;
                 height: 3px;
                 border: 2px solid greenyellow;
@@ -107,5 +172,19 @@
             }
         }
     }
-
+    .b1 {
+        width: 300px;
+        height: 200px;
+    }
+    .b2 {
+        width: 300px;
+        height: 200px;  
+    }
+    .b3 {
+        width: 300px;
+        height: 200px;
+    }
+    .cont-inv {
+        display: flex;
+    }
 }

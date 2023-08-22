@@ -4,7 +4,7 @@
   height: 150px;
   border: 3px solid rgb(0, 0, 0);
   margin-left: 300px;
-  margin-top: 400px;
+  margin-top: 192px;
 }
 .container .box .door {
   width: 150px;
@@ -47,8 +47,40 @@
   border-radius: 100px;
   border: 3px solid rgb(0, 0, 0);
   z-index: 1;
+  float: left;
 }
 .container .box .eye1 .zra4ok1 {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+.container .box .eye1 .zra4ok1-b1 {
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: 3px;
+  height: 3px;
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+.container .box .eye1 .zra4ok1-b2 {
+  position: absolute;
+  left: 3px;
+  top: -2px;
+  width: 3px;
+  height: 3px;
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+.container .box .eye1 .zra4ok1-b3 {
+  position: absolute;
+  left: 9px;
+  top: -1px;
   width: 3px;
   height: 3px;
   border: 2px solid greenyellow;
@@ -56,6 +88,7 @@
   border-radius: 10px;
 }
 .container .box .eye2 {
+  float: right;
   position: relative;
   top: 60px;
   left: 55px;
@@ -66,6 +99,37 @@
   z-index: 1;
 }
 .container .box .eye2 .zra4ok2 {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+.container .box .eye2 .zra4ok2-b1 {
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: 3px;
+  height: 3px;
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+.container .box .eye2 .zra4ok2-b2 {
+  position: absolute;
+  left: 3px;
+  top: -2px;
+  width: 3px;
+  height: 3px;
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+.container .box .eye2 .zra4ok2-b3 {
+  position: absolute;
+  left: 9px;
+  top: -1px;
   width: 3px;
   height: 3px;
   border: 2px solid greenyellow;
@@ -100,4 +164,19 @@
 .container .button-summon .star:hover {
   transition: 0.3s;
   background-image: url(../img/Без\ названия\ \(4.hover\).png);
+}
+.container .b1 {
+  width: 300px;
+  height: 200px;
+}
+.container .b2 {
+  width: 300px;
+  height: 200px;
+}
+.container .b3 {
+  width: 300px;
+  height: 200px;
+}
+.container .cont-inv {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
